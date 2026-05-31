@@ -1,0 +1,88 @@
+T11A8 000:005.766   SEGGER J-Link V8.16 Log File
+T11A8 000:005.909   DLL Compiled: Feb 26 2025 12:07:26
+T11A8 000:005.920   Logging started @ 2026-05-28 02:45
+T11A8 000:005.930   Process: C:\Keil_v5\UV4\UV4.exe
+T11A8 000:005.949 - 5.941ms 
+T11A8 000:005.966 JLINK_SetWarnOutHandler(...)
+T11A8 000:005.978 - 0.014ms 
+T11A8 000:005.992 JLINK_OpenEx(...)
+T11A8 000:010.617   Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+T11A8 000:011.990   Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+T11A8 000:014.198   Hardware: V7.00
+T11A8 000:014.231   S/N: 20090928
+T11A8 000:014.246   OEM: SEGGER
+T11A8 000:014.264   Feature(s): JFlash, RDI, GDB, FlashDL, FlashBP
+T11A8 000:014.674   Bootloader: (FW returned invalid version)
+T11A8 000:015.806   TELNET listener socket opened on port 19021
+T11A8 000:015.911   WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+T11A8 000:016.072   WEBSRV Webserver running on local port 19080
+T11A8 000:016.216   Looking for J-Link GUI Server exe at: C:\Keil_v5\ARM\Segger\JLinkGUIServer.exe
+T11A8 000:016.369   Looking for J-Link GUI Server exe at: \JLinkGUIServer.exe
+T11A8 000:322.117   Failed to connect to J-Link GUI Server.
+T11A8 000:322.151 - 316.145ms returns "O.K."
+T11A8 000:322.170 JLINK_GetEmuCaps()
+T11A8 000:322.178 - 0.004ms returns 0x88EA5833
+T11A8 000:322.188 JLINK_TIF_GetAvailable(...)
+T11A8 000:322.557 - 0.370ms 
+T11A8 000:322.590 JLINK_SetErrorOutHandler(...)
+T11A8 000:322.599 - 0.009ms 
+T11A8 000:322.623 JLINK_ExecCommand("ProjectFile = "C:\Users\vill\Desktop\STM32project\HAL\STM32F407VET6\VOICE\MDK-ARM\JLinkSettings.ini"", ...). 
+T11A8 000:346.556 - 23.934ms returns 0x00
+T11A8 000:349.354 JLINK_ExecCommand("Device = STM32F407VETx", ...). 
+T11A8 000:352.002   Device "STM32F407VE" selected.
+T11A8 000:352.359 - 2.988ms returns 0x00
+T11A8 000:352.373 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T11A8 000:352.388   ERROR: Unknown command
+T11A8 000:352.394 - 0.015ms returns 0x01
+T11A8 000:352.399 JLINK_GetHardwareVersion()
+T11A8 000:352.403 - 0.004ms returns 70000
+T11A8 000:352.408 JLINK_GetDLLVersion()
+T11A8 000:352.412 - 0.003ms returns 81600
+T11A8 000:352.416 JLINK_GetOEMString(...)
+T11A8 000:352.421 JLINK_GetFirmwareString(...)
+T11A8 000:352.425 - 0.003ms 
+T11A8 000:358.754 JLINK_GetDLLVersion()
+T11A8 000:358.780 - 0.025ms returns 81600
+T11A8 000:358.785 JLINK_GetCompileDateTime()
+T11A8 000:358.789 - 0.003ms 
+T11A8 000:361.185 JLINK_GetFirmwareString(...)
+T11A8 000:361.202 - 0.016ms 
+T11A8 000:364.140 JLINK_GetHardwareVersion()
+T11A8 000:364.155 - 0.014ms returns 70000
+T11A8 000:366.502 JLINK_GetSN()
+T11A8 000:366.517 - 0.014ms returns 20090928
+T11A8 000:369.044 JLINK_GetOEMString(...)
+T11A8 000:373.813 JLINK_TIF_Select(JLINKARM_TIF_JTAG)
+T11A8 000:376.258 - 2.449ms returns 0x00
+T11A8 000:376.276 JLINK_HasError()
+T11A8 000:376.291 JLINK_SetSpeed(5000)
+T11A8 000:376.580 - 0.291ms 
+T11A8 000:376.589 JLINK_GetIdData(pIdData)
+T11A8 000:379.256   InitTarget() start
+T11A8 000:379.280    J-Link Script File: Executing InitTarget()
+T11A8 000:382.538   JTAG selected. Identifying JTAG Chain...
+T11A8 000:387.272   Could not measure total IR len. TDO is constant high.
+T11A8 000:391.020   Error: Scanning JTAG chain failed.
+T11A8 000:393.266   Can not attach to CPU. Trying connect under reset.
+T11A8 000:447.946   JTAG selected. Identifying JTAG Chain...
+T11A8 000:452.451   Could not measure total IR len. TDO is constant high.
+T11A8 000:455.276   Error: Scanning JTAG chain failed.
+T11A8 000:457.195   Connecting to CPU via connect under reset failed.
+T11A8 000:509.858   InitTarget() end - Took 128ms
+T11A8 000:511.947   Connect failed. Resetting via Reset pin and trying again.
+T11A8 000:577.825   InitTarget() start
+T11A8 000:577.847    J-Link Script File: Executing InitTarget()
+T11A8 000:580.059   JTAG selected. Identifying JTAG Chain...
+T11A8 000:584.674   Could not measure total IR len. TDO is constant high.
+T11A8 000:587.426   Error: Scanning JTAG chain failed.
+T11A8 000:589.280   Can not attach to CPU. Trying connect under reset.
+T11A8 000:642.990   JTAG selected. Identifying JTAG Chain...
+T11A8 000:647.118   Could not measure total IR len. TDO is constant high.
+T11A8 000:649.718   Error: Scanning JTAG chain failed.
+T11A8 000:651.480   Connecting to CPU via connect under reset failed.
+T11A8 000:705.675   InitTarget() end - Took 124ms
+T11A8 000:705.696 - 329.106ms 
+T11A8 002:560.916 JLINK_Close()
+T11A8 002:573.808 - 12.891ms
+T11A8 002:573.833   
+T11A8 002:573.837   Closed
