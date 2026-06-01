@@ -22,9 +22,9 @@
 |-------------|-------------|------|
 | VDD | 3.3V | 必须3.3V，不能用5V |
 | GND | GND | |
-| SCK | PB13 | I2S2_SCK |
+| SCK | PB10 | I2S2_SCK |
 | WS | PB12 | I2S2_WS |
-| SD | PB15 | I2S2_SD |
+| SD | PC3 | I2S2_SD |
 | L/R | GND | 左声道输出 |
 
 ## 🚀 快速上手
